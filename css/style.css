@@ -1,0 +1,106 @@
+/* Global Styles */
+.btn-one{
+  text-decoration: none;
+  padding:10px 30px;
+  color:#ffffff;
+  background-color: #FF136F;
+  border:1px solid #FF136F;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.btn-one:hover{
+  background-color: transparent!important;
+  color:#FF136F;
+}
+.banner{
+  margin-bottom: 100px;
+}
+section{
+  margin-bottom: 100px;
+}
+/* Header Start */
+#top-header{
+  margin-bottom: 100px;
+}
+#top-header .navbar{
+  padding: 10px;
+  border-radius: 5px;
+  background: rgb(244, 242, 242)!important;
+}
+.navbar-brand{
+  margin-right:50px!important;
+}
+/* Header End */
+
+/* Banner Start */
+.banner .carousel{
+  background-color: #fceae8;
+  border-radius: 20px;
+}
+.banner-left, .banner-right{
+  padding:40px;
+}
+.banner-left h1{
+  font-weight: 700;
+}
+.banner-left p{
+  margin-bottom: 0px;
+}
+.banner-left span{
+  font-size:45px;
+  font-weight: 700;
+  color:#FF136F;
+  margin-bottom:20px;
+}
+
+/* Categories Start */
+#categories img{
+  width:100px;
+} 
+/* Backpack Start */
+.backpack{
+  padding:0px 20px 30px 20px;
+}
+.backpack img{
+  margin-bottom: 20px;
+}
+/* Subscribe Start */
+#subscribe .subscribe-cnt{
+  background-color: #fceae8;
+  border-radius: 20px;
+  padding:50px;
+}
+#subscribe input{
+  
+}
+#subscribe input:hover, #subscribe input:focus{
+  box-shadow: none!important;
+}
+footer{
+  background-color: #000000;
+  padding:50px 0px;
+  color:#ffffff;
+}
+footer p{
+  margin-bottom: 0;
+}
+
+/* Media Queries */
+@media (max-width:992px) {
+  .banner{
+    margin-bottom: 80px;
+  }
+  section{
+    margin-bottom: 70px;
+  }
+  #categories .watch, .bag, .shoes-one, .shoes-two, .backpack-one, .backpack-two{
+    margin-bottom:30px;
+  }
+}
+@media (max-width:768px) {
+  
+}
+
+
+
+
